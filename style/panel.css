@@ -1,0 +1,33 @@
+.search-panel {
+    background: #131313;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(26, 26, 26, 0.1);
+    width: auto;   /* ← Aquí cambias el ancho */
+    height: auto;   /* ← Puedes fijar una altura si lo deseas */
+  }
+  .search-panel h2 {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .search-box {
+    display: flex;
+  }
+  .search-box input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+  }
+  .search-box button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #0b9bbe;
+    color: white;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  .search-box button:hover {
+    background-color: #00e9f1;
+  }

@@ -1,14 +1,13 @@
-
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: hsl(0, 0%, 98%);
+  background-color: #161616;
+  text-align: center;
+  height: 100vh;
 }
 
 header {
   background-color: #760094;
-  color:white;
+  color:rgb(255, 255, 255);
   text-align: center;
   padding: 20px;
 }
@@ -19,16 +18,28 @@ header h1 {
 }
 
 nav {
-  background-color: #650768;
+  background-color: #111111;
   padding: 10px;
   text-align: center;
 }
 
 nav a {
-  color: white;
+  color: rgb(0, 0, 0);
   margin: 0 15px;
   text-decoration: none;
   font-weight: bold;
+}
+
+nav a:hover {
+  color: rgb(0, 247, 255);                /* Color al pasar el cursor */
+}
+
+nav a:active {
+  color: rgb(0, 247, 255);               /* Color al hacer clic */
+}
+
+nav a:visited {
+  color: rgb(0, 247, 255);             /* Color si el enlace ya fue visitado */
 }
 
 main {
@@ -36,27 +47,39 @@ main {
 }
 
 .ofer {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  display: flex;
   gap: 20px;
+  justify-content: center;
 }
 
 .item {
-  background: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  text-align: center;
+  background: #fff;
   padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .item img {
-  max-width: 100%;
-  border-radius: 8px;
+  width: 250px;
+  height: auto;
 }
 
-.item h3 {
-  margin: 10px 0;
+.item button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
+
+.item button:hover {
+  background-color: #0056b3;
+}
+
 
 .whatsapp-btn {
   display: block;

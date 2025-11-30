@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OneGoatExpress - Delivery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+
+    header {
+      background-color: #10837ddc;
+      color:white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    nav {
+      background-color: #0d706bc2;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .item {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 15px;
+    }
+
+    .item img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+
+    .item h3 {
+      margin: 10px 0;
+    }
+
+    .whatsapp-btn {
+      display: block;
+      width: 200px;
+      margin: 30px auto;
+      padding: 15px;
+      text-align: center;
+      background-color: #0d6d6d;
+      color: white;
+      font-size: 1.2em;
+      font-weight: bold;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+
+    footer {
+      background-color: #088671;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🐐 OneGoatExpress</h1>
+    <p>Delivery rápido y confiable en tu municipio</p>
+  </header>
+
+  <nav>
+    <a href="#menu">Menú</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <main>
+    <h2 id="menu">Nuestro Menú</h2>
+    <div class="menu">
+      <div class="item">
+        <img src="https://via.placeholder.com/250x150" alt="Pizza">
+        <h3>Pizza Especial</h3>
+        <p>$5.00</p>
+      </div>
+      <div class="item">
+        <img src="https://via.placeholder.com/250x150" alt="Hamburguesa">
+        <h3>Hamburguesa Goat</h3>
+        <p>$4.00</p>
+      </div>
+      <div class="item">
+        <img src="https://via.placeholder.com/250x150" alt="Bebida">
+        <h3>Refresco</h3>
+        <p>$1.50</p>
+      </div>
+    </div>
+
+    <!-- Botón de WhatsApp -->
+    <a class="whatsapp-btn" href="https://wa.me/50026936" target="_blank">
+      Pedir por WhatsApp
+    </a>
+  </main>
+
+  <footer id="contacto">
+    <p>📞 Tel: +53 50026936 | ✉️ Email: onegoatspress@gmail.com</p>
+    <p>&copy; 2025 OneGoatExpress</p>
+  </footer>
+
+</body>
+</html>

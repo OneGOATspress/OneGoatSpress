@@ -79,16 +79,16 @@ nav {
 
 .ofer a {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-weight: bold;
   padding: 0.5rem 1rem;
-  border: 1px solid rgb(71, 71, 71);
+  border: 1px solid rgb(22, 140, 145);
   border-radius: 5px;
   transition: all 0.3s ease;
 }
 
 .ofer a:hover {
-  background: #740a5d;
+  background: #06d19e;
   color: white;
 }
 
